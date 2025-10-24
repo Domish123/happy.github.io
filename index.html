@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Benjaaa ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Para Mi Benjaaas</h1>
+            <p class="subtitle">Una página hecha con todo mi cariño</p>
+        </header>
+
+        <main class="main-content">
+            <div class="love-message">
+                <h2>Mi Corazón Late Por Ti</h2>
+                <p class="message-text">
+                    Cada día que pasa, mi amor por ti crece más y más. 
+                    Eres la luz que ilumina mis días y la razón de mi sonrisa. 
+                    Esta página es solo una pequeña muestra de todo lo que siento por ti.
+                </p>
+            </div>
+
+            <div class="hearts-gallery">
+                <div class="heart heart-1">❤️</div>
+                <div class="heart heart-2">💕</div>
+                <div class="heart heart-3">💖</div>
+                <div class="heart heart-4">💗</div>
+                <div class="heart heart-5">💝</div>
+            </div>
+
+            <div class="special-messages">
+                <div class="message-card">
+                    <h3>Razones por las que te amo</h3>
+                    <ul class="reasons-list">
+                        <li>Tu sonrisa ilumina mi mundo</li>
+                        <li>Tu forma de ser tan especial</li>
+                        <li>Los momentos que compartimos</li>
+                        <li>Tu amor incondicional</li>
+                        <li>Eres mi mejor amigo y mi amor</li>
+                    </ul>
+                </div>
+
+                <div class="message-card">
+                    <h3>Nuestros Recuerdos</h3>
+                    <p>Desde el primer día que te conocí, supe que eras especial. Cada momento a tu lado es un tesoro que guardo en mi corazón.</p>
+                </div>
+            </div>
+
+            <button class="love-button" id="loveButton">
+                Haz clic para recibir un abrazo virtual 🤗
+            </button>
+
+            <div class="personal-message" id="personalMessage" style="display: none;">
+                <h3>¡Te amo mucho!</h3>
+                <p>Eres la persona más importante en mi vida y no puedo imaginar mi mundo sin ti.</p>
+            </div>
+
+            <!-- Nueva sección: Galería de momentos especiales -->
+            <div class="moments-gallery">
+                <h2 class="section-title">Nuestros Momentos Especiales</h2>
+                <div class="moments-grid">
+                    <div class="moment-card" data-moment="1">
+                        <div class="moment-icon">🌹</div>
+                        <h4>Primera encuentro</h4>
+                        <p>Gracias por todo MC...</p>
+                    </div>
+                    <div class="moment-card" data-moment="2">
+                        <div class="moment-icon">💍</div>
+                        <h4>Compromiso</h4>
+                        <p>proximamente 2035</p>
+                    </div>
+                    <div class="moment-card" data-moment="3">
+                        <div class="moment-icon">🎂</div>
+                        <h4>Cumpleaños</h4>
+                        <p>19 de enero de 2012</p>
+                    </div>
+                    <div class="moment-card" data-moment="4">
+                        <div class="moment-icon">🌙</div>
+                        <h4>Noches Estrelladas</h4>
+                        <p>Contemplando el cielo juntos</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nueva sección: Contador de amor -->
+            <div class="love-counter">
+                <h2 class="section-title">Nuestro Tiempo Juntos</h2>
+                <div class="counter-grid">
+                    <div class="counter-item">
+                        <div class="counter-number" id="daysTogether">0</div>
+                        <div class="counter-label">Días</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-number" id="hoursTogether">0</div>
+                        <div class="counter-label">Horas</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-number" id="minutesTogether">0</div>
+                        <div class="counter-label">Minutos</div>
+                    </div>
+                    <div class="counter-item">
+                        <div class="counter-number" id="secondsTogether">0</div>
+                        <div class="counter-label">Segundos</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nueva sección: Poemas románticos -->
+            <div class="poems-section">
+                <h2 class="section-title">Poemas Para Ti</h2>
+                <div class="poems-container">
+                    <div class="poem-card">
+                        <h4>Mi Corazón</h4>
+                        <p>En cada latido de mi corazón<br>
+                        Resuena tu nombre con pasión<br>
+                        Eres mi sol, mi luna, mi estrella<br>
+                        Mi amor por ti nunca se desvanece</p>
+                    </div>
+                    <div class="poem-card">
+                        <h4>Eternidad</h4>
+                        <p>Si pudiera elegir una eternidad<br>
+                        Sería estar contigo en la realidad<br>
+                        Cada segundo a tu lado es un regalo<br>
+                        Mi amor por ti es mi mayor tesoro</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nueva sección: Botones especiales -->
+            <div class="special-buttons">
+                <button class="special-btn" id="kissButton">💋 Enviar un beso</button>
+                <button class="special-btn" id="hugButton">🤗 Enviar un abrazo</button>
+                <button class="special-btn" id="flowerButton">🌹 Regalar una flor</button>
+                <button class="special-btn" id="fireworksButton">🎆 Fuegos artificiales</button>
+            </div>
+
+            <!-- Nueva sección: Mensajes secretos -->
+            <div class="secret-messages">
+                <h2 class="section-title">Mensajes Secretos</h2>
+                <div class="secret-container">
+                    <input type="password" id="secretInput" placeholder="Escribe 'te amo' para desbloquear...">
+                    <div class="secret-content" id="secretContent" style="display: none;">
+                        <h3>¡Mensaje Desbloqueado! 🎉</h3>
+                        <p>Eres la persona más especial del mundo para mí. Cada día a tu lado es una aventura nueva y emocionante.</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Hecho con ❤️ para ti, mi amor</p>
+            <p class="date" id="currentDate"></p>
+        </footer>
+    </div>
+
+    <div class="floating-hearts" id="floatingHearts"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
